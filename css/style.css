@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    width: 1400px;
     font-family: 'Montserrat', sans-serif;
 }
 header,
 main, footer{
-    width: 100%;
+    width: 1400px;
+    max-width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
 }
 
 
@@ -223,20 +225,6 @@ main{
     line-height: 24px;
     letter-spacing: 0.01em;
     color: #000000;
-}
-.new-block-2>.new-blocks-subtitle{
-    position: absolute;
-    width: 154.22px;
-    height: 23.38px;
-    left: 60px;
-    top: 141px;
-    font-family: 'Work Sans';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.2475px;
-    color: #000000;
-
 }
 .new-blocks-circle{
     position: absolute;
@@ -761,6 +749,9 @@ footer{
 
 /* responsive */
 @media (max-width:768px) {
+    main{
+        height: 4500px;
+    }
     .nav-menu-list{
         display: none;
     }
@@ -779,6 +770,8 @@ footer{
         top: 35px;
     }
     .nav-menu-list-people, .nav-menu-list-search{
+        position: absolute;
+        left: -100px;
         display: none;
     }
 
@@ -883,21 +876,29 @@ footer{
     }
     .new-block-2>.new-blocks-subtitle{
         position: absolute;
-        width: 92.53px;
+        width: 100px;
         height: 14.06px;
         left: 31.59px;
         top: 66.44px;
+    }
+    .new-blocks-subtitle{
+        position: absolute;
+        width: 128.07px;
+        height: 30.45px;
+        left: 31.68px;
+        top: 66.44px;
         font-weight: 400;
         font-size: 12px;
-        line-height: 14px;
-        letter-spacing: 0.2475px;
+        line-height: 15px;
+        letter-spacing: 0.01em;
         color: #000000;
+        text-transform: uppercase;
     }
-    .new-block-2>.new-blocks-shoe{
+       .new-block-2>.new-blocks-shoe{
         position: absolute;
-        top: -60px;
+        top: -50px;
     }
-    .new-blocks-title{
+        .new-blocks-title{
         position: absolute;
         width: 43.36px;
         height: 20.3px;
@@ -908,18 +909,6 @@ footer{
         font-size: 16px;
         line-height: 20px;
         color: #FF3939;
-    }
-    .new-blocks-subtitle{
-        position: absolute;
-        width: 128.07px;
-        height: 30.45px;
-        left: 31.68px;
-        top: 53.95px;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 15px;
-        letter-spacing: 0.01em;
-        color: #000000;
     }
     .new-blocks-circle{
         position: absolute;
@@ -937,10 +926,10 @@ footer{
     }
     .new-blocks-shoe{
         position: absolute;
-        width: 400px;
-        height: 240px;
-        left: 0px;
-        top: -50px;
+        width: 300px;
+        height: 230px;
+        left: 50px;
+        top: -45px;
     }
 
     /* summertime-mood-responsive */
@@ -948,14 +937,14 @@ footer{
         position: absolute;
         width: 100%;
         height: 84px;
-        left: 47px;
+        left: 0px;
         top: 898px;
     }
     .summertime-mood-text-1{
         position: absolute;
         width: 129px;
         height: 20px;
-        left: 90px;
+        left: 150px;
         top: 0px;
         font-weight: 400;
         font-size: 16px;
@@ -966,7 +955,7 @@ footer{
         position: absolute;
         width: 280px;
         height: 29px;
-        left: 15px;
+        left: 70px;
         top: 25px;
         font-weight: 900;
         font-size: 24px;
@@ -978,7 +967,7 @@ footer{
         position: absolute;
         width: 243px;
         height: 20px;
-        left: 35px;
+        left: 90px;
         top: 64px;
         font-weight: 400;
         font-size: 16px;
@@ -991,14 +980,14 @@ footer{
         position: absolute;
         width: 100%;
         height: 376px;
-        left: 40px;
+        left: 0px;
         top: 1032px;
     }
     .top-sneakers-title{
         position: absolute;
         width: 115px;
         height: 20px;
-        left: 111px;
+        left: 150px;
         top: 0px;
         font-weight: 700;
         font-size: 16px;
@@ -1009,7 +998,7 @@ footer{
         position: absolute;
         width: 240px;
         height: 336px;
-        left: 48px;
+        left: 90px;
         top: 40px;
     }
     .top-seakers-block-2{
@@ -1157,11 +1146,12 @@ footer{
         position: absolute;
         width: 100%;
         height: 478.46px;
-        left: 50px;
+        left: 0px;
         top: 3250px;
     }
     .discount-title{
-        left: 0px;
+        width: 0;
+        left: 50px;
     }
     .discount-title-span-1{
         position: absolute;
@@ -1206,14 +1196,14 @@ footer{
         position: absolute;
         width: 302.29px;
         height: 137.68px;
-        left: 10px;
+        left: 60px;
         top: 141.47px;
     }
     .discount-block-2{
         position: absolute;
         width: 301.51px;
         height: 136.22px;
-        left: 10px;
+        left: 60px;
         top: 330.09px;
     }
     .discount-blocks-bg{
