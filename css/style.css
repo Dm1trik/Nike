@@ -768,14 +768,14 @@ footer{
         position: absolute;
         width: 180px;
         height: 24px;
-        left: 30px;
+        left: 50px;
         top: 30px;
     }
     .nav-menu-icon-list{
         position: absolute;
         width: 25px;
         height: 25px;
-        left: 330px;
+        left: 370px;
         top: 35px;
     }
     .nav-menu-list-people, .nav-menu-list-search{
@@ -871,14 +871,14 @@ footer{
         position: absolute;
         width: 302.29px;
         height: 137.68px;
-        left: 30px;
+        left: 55px;
         top: 168.47px;
     }
     .new-block-2{
         position: absolute;
         width: 301.51px;
         height: 136.22px;
-        left: 30px;
+        left: 55px;
         top: 357.09px;
     }
     .new-block-2>.new-blocks-subtitle{
@@ -955,7 +955,7 @@ footer{
         position: absolute;
         width: 129px;
         height: 20px;
-        left: 80px;
+        left: 90px;
         top: 0px;
         font-weight: 400;
         font-size: 16px;
@@ -966,7 +966,7 @@ footer{
         position: absolute;
         width: 280px;
         height: 29px;
-        left: 0px;
+        left: 15px;
         top: 25px;
         font-weight: 900;
         font-size: 24px;
@@ -978,7 +978,7 @@ footer{
         position: absolute;
         width: 243px;
         height: 20px;
-        left: 40px;
+        left: 35px;
         top: 64px;
         font-weight: 400;
         font-size: 16px;
@@ -991,7 +991,7 @@ footer{
         position: absolute;
         width: 100%;
         height: 376px;
-        left: 20px;
+        left: 40px;
         top: 1032px;
     }
     .top-sneakers-title{
@@ -1005,7 +1005,7 @@ footer{
         line-height: 20px;
         color: #000000;
     }
-    .top-seakers-block-1{
+    .top-seakers-block-1, .top-seakers-block-2, .top-seakers-block-3{
         position: absolute;
         width: 240px;
         height: 336px;
@@ -1013,10 +1013,10 @@ footer{
         top: 40px;
     }
     .top-seakers-block-2{
-        display: none;
+        top: 400px;
     }
     .top-seakers-block-3{
-        display: none;
+        top: 760px;
     }
     .top-seakers-blocks-bg{
         position: absolute;
@@ -1078,7 +1078,7 @@ footer{
         width: 100%;
         height: 1030px;
         left: 0px;
-        top: 1458px;
+        top: 2200px;
     }
     .category-title{
         position: absolute;
@@ -1157,8 +1157,8 @@ footer{
         position: absolute;
         width: 100%;
         height: 478.46px;
-        left: 20px;
-        top: 2538px;
+        left: 50px;
+        top: 3250px;
     }
     .discount-title{
         left: 0px;
@@ -1303,7 +1303,7 @@ footer{
         width: 100%;
         height: 171px;
         left: 0px;
-        top: 3055px;
+        top: 3800px;
     }
     .more-product-title{
         position: absolute;
@@ -1379,7 +1379,7 @@ footer{
         width: 100%;
         height: 120px;
         left: 0px;
-        top: 3304px;
+        top: 4050px;
     }
     .footer-list-1, .footer-list-2{
         position: absolute;
